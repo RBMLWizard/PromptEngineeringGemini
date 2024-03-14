@@ -48,7 +48,7 @@ def process_query(query, index, data, k=3):
 
     else:  
         # Directly query Gemini 
-        # *** Adjust this based on documentation: ***
+        # *** Adjust this based on documentation from the GOOGLE dev website and api documentation ***
         response = model.generate_content(query)  # Or the correct method name
         return response.text
 
